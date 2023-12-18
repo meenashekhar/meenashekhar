@@ -4,3 +4,5 @@
 - 💞️ I’m looking to collaborate on the web development and related projects to get an experience in this field.
 - 📫 You can reach me through my email address :  "meenashekhar527@gmail.com"  and also you can visit my Linkedin profile  : "https://www.linkedin.com/in/shekhar-meena-9b70a3284/".
 
+- The above listed projects are purely made using HTML , CSS , JAVASCRIPT. 
+
