@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name ="viewport" content="width=device-width,intial-scale=1.0">
+   <title>
+   loginc Form
+   </title>
+  <link rel="stylesheet" href="shekhar.meena">
+  <style>
+   { 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "poppins",sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background:url(bgg.jpg.lnk);
+  background-size: cover;
+  background-position: center;
+  }
+  
+  
+    
+    .wrapper{
+      width: 420px;
+      height: 320px;
+     background: transparent;
+      border: 2px solid rgba(255,255,255, .2);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      border-radius: 20px;
+      padding: 35px 30px;
+      border-color: aliceblue;
+      border-style: solid;
+    }
+     
+    .wrapper .input-box{
+    position:relative;
+    width:100%
+    height:50px;
+    margin :25px 0 ;
+  
+  }
+  .input-box input {
+  
+  width: 50%;
+  height:50%;
+  background :transparent;
+  border:none;
+  outline: none;
+  border: 2px solid #000;
+  border-radius : 40px;
+  font-size: 16px;
+  color : #fff;
+  padding : 20px 45px 20px 20px;
+  }
+  
+    
+    .wrapper .btn{
+  
+  width: 60%;
+  height: 45px;
+  background:lightseagreen;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 600;}
+
+
+
+  </style>
+
+</head>
+<body>
+    <div class="wrapper">
+    <form action="#">
+      <h1> login </h1>
+
+    <div class="input-box">
+
+     <center><input type="text" placeholder="Username" required></center>
+    </div>
+    <div class="input-box">
+
+     <center> <input type="password" placeholder="password" required></center>
+      <br><br>
+      <center><button type="submit" class ="btn"> login </button></center>
+      <div class="register-link">
+        <p> Dont have an account <a href="#"> Register</a> </p>
+    
+    </div>
+    </form>
+    </div>
+ </body>
+      </html>
